@@ -1,0 +1,111 @@
+INTRODUCTION:
+
+We would think of "n" (the input size) as the number of calls or texts, meaning the number of records.  How does the complexity of computing the desired output increase, compared to an increase in "n"?
+
+
+TASK 0 ANALYSIS:
+
+In my algorithm:
+
+ - I compute len(texts) and len(calls).  But, increase in "n" does not increase the time to compute len(), because len() is O(1), according to this site:  https://www.geeksforgeeks.org/internal-working-of-the-len-function-in-python/
+
+ - I get the item from the list using square brackets, which is O(1) according to this site:  https://wiki.python.org/moin/TimeComplexity
+
+So, my Task 0 solution is O(1).
+
+
+
+TASK 1 ANALYSIS:
+
+In my algorithm, for each unique file (or list of records), I get a set of phone numbers.
+
+ - First I unzip the list of records.  The zip function creates an iterator (https://docs.python.org/3/library/functions.html#zip), therefore I think the unzip computation is O(n).
+
+ - Then I create a set from a list.  The time complexity of this is O(n), because the list must be iterated over each element, but the adding of an element to a set is O(1).  Reference: https://www.folkstalk.com/tech/convert-set-to-list-python-time-complexity-method-2-with-code-examples/
+
+ - Then I create a set from another list, so this is also O(n).
+
+ - Then I take the union of two sets.  This complexity is O(len(s)+len(t)), or approximately O(2n).  Reference: https://wiki.python.org/moin/TimeComplexity
+
+So, to get the set of phone numbers from one file of records, is approximately: 
+O(n) + 2*O(n) + O(2n) ~= O(5n)
+
+Since I have two files of records (one of calls, one of texts), I need to run my algorithm twice, so the complexity of the overall solution is ~= O(10n).
+
+So approximately, my Task 1 solution is linear, O(n).
+
+
+TASK 2 ANALYSIS:
+
+In my algorithm, first I make a dictionary of phone numbers and duration.
+
+ - Looping over the list of phone call records is O(n).
+
+ - Then, for each record, getting/setting values in the dictionary is O(n) worst case scenario, where n is the size of the dictionary (number of phone numbers).  The worst case scenario is that every phone record is a unique phone number!  Reference: https://wiki.python.org/moin/TimeComplexity
+
+So, just making the dictionary is O(n^2), since for each iteration of the records you must also (worst case) iterate over the dictionary of phone numbers.
+
+Then, I get the max value out of the dictionary, which is complexity O(n), since max is looking over an iterable.  References:
+https://docs.python.org/3/library/functions.html?highlight=max#max
+https://stackoverflow.com/questions/51714253/getting-key-with-maximum-value-what-is-the-time-complexity-for-this-piece-of-co
+
+Then, I get the key for the max value.  Running the max() function again is O(n).
+
+So approximately, my Task 2 solution is O(n^2 + 2n), or roughly O(n^2) (quadratic).  
+
+
+
+TASK 3A ANALYSIS:
+
+This was a lot of code, but a lot of that was just parsing the data in a record, so that is constant time efficiency for each record.  In my algorithm:
+
+ - First I loop through all the records in the calls file, so that is O(n).
+
+ - For each phone call record, I run the method "code_called_from_bangalore", which is constant time for each record -- O(1).  That is, the time to run "code_called_from_bangalore" doesn't change depending on how many records you have.
+
+ - For each phone call record (worst case scenario, is that all the phone numbers are unique and meet the result criteria to be counted), we might need to add the number code to our set, but that is constant -- O(1).  The complexity of set.add() is constant because set is implemented in Python as a hash table.  Reference:  https://blog.finxter.com/python-set-add/
+
+ - Once I am done looping through the phone call records:
+
+   -- I create a list from the set, which is O(n) because it must iterate over all elements in the set.  Reference:  https://blog.finxter.com/python-set-to-list/
+
+   -- Then I sort the list using sorted(), which is log linear O(n*log(n)) in the worst case time complexity.  Reference:  https://medium.com/@bhargavacharanreddy/do-you-know-the-time-complexity-of-pythons-sorted-function-1ae9e7d712b1
+
+So approximately, my Task 3A solution is O(n + n + n*log(n)), which is approximately O(n*log(n)).
+
+
+TASK 3B ANALYSIS:
+
+In my algorithm,
+ 
+ - I loop through all records in the calls file, so that is O(n).
+
+ - For each record, I might be incrementing an integer (the counts of records I am interested in).  If the counts got really big, the number of bits might increase and so the time complexity of addition might be O(n) where n is the number of bits, but I think we can assume that integer addition operation will be constant O(1) where n is the number of records in the calls file.  Reference: https://iq.opengenus.org/time-complexity-of-addition/
+
+So, the approximate complexity of my Task 3B solution is O(n).
+
+
+
+TASK 4 ANALYSIS:
+
+In my algorithm,
+
+ - I unzip the list of calls: O(n)
+
+ - I unzip the list of texts: O(n)
+
+ - I create four sets out of four lists, so that is 4*O(n) = O(4*n)
+
+ - Then I take the difference between three pairs of sets, to find the elements in "outgoing_call_numbers" that are NOT in "receiving_call_numbers", "outgoing_text_numbers", or "receiving_text_numbers", which in the worst case is the outgoing call number in all the phone call records, so that is 3*O(n) = O(3*n).  Reference: https://wiki.python.org/moin/TimeComplexity
+
+ - I create a list from the set of possible telemarketers, so that is O(n)
+
+ - Finally I sort the list with the sorted() function, which is O(n*log(n))
+
+So, my solution complexity is approximately O(n + n + 4*n + 3*n + n + n*log(n)) = O(10*n + n*log(n)), so my Task 4 solution is approximately log linear, O(n*log(n)).
+
+
+Thank you! 
+
+
+  
