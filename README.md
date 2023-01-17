@@ -72,6 +72,9 @@ Given a linked list, swap the two nodes present at position `i` and `j`, assumin
 ### 2.  `udacity/dataStructuresAndAlgorithms/dataStructures/stacksAndQueues`
 
 **2.1. Implement-a-stack-using-an-array.ipynb**<br>
-Basic stack class with a python list like a Pringle's can. 
+Basic stack class with a python list (array) like a Pringle's can. 
+
+**2.2. Implement-a-stack-using-a-linked-list.ipynb**<br>
+Basic stack class with a linked list (wrote a Node class). 
 
 
