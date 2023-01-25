@@ -77,4 +77,10 @@ Basic stack class with a python list (array) like a Pringle's can.
 **2.2. Implement-a-stack-using-a-linked-list.ipynb**<br>
 Basic stack class with a linked list (wrote a Node class). 
 
+**2.3. Build-a-stack.ipynb**<br>
+Basic stack class with a python list.
 
+**2.4. Balanced-parentheses-exercise.ipynb**<br>
+Using stacks to make sure the parentheses are balanced in mathematical expressions such as:  ((32+8)∗(5/2))/(2+6)
+
+.  
