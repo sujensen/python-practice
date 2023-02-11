@@ -86,4 +86,7 @@ Using stacks to make sure the parentheses are balanced in mathematical expressio
 **2.5. Reverse-Polish-notation.ipynb**<br>
 Given a postfix expression as input, evaluate in Reverse Polish notation and return the output.  I didn't get this one 100% of the way.
 
+**2.6. Reverse-a-stack.ipynb**<br>
+If your stack initially has 1, 2, 3, 4 (4 at the top and 1 at the bottom), after reversing the order must be 4, 3, 2, 1 (4 at the bottom and 1 at the top).
+
 .  
