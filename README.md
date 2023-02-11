@@ -89,4 +89,7 @@ Given a postfix expression as input, evaluate in Reverse Polish notation and ret
 **2.6. Reverse-a-stack.ipynb**<br>
 If your stack initially has 1, 2, 3, 4 (4 at the top and 1 at the bottom), after reversing the order must be 4, 3, 2, 1 (4 at the bottom and 1 at the top).
 
+**2.7. Minimum-bracket-reversals.ipynb**<br>
+Given an input string consisting of only { and }, figure out the minimum number of reversals required to make the brackets balanced.
+
 .  
