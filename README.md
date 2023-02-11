@@ -83,4 +83,7 @@ Basic stack class with a python list.
 **2.4. Balanced-parentheses-exercise.ipynb**<br>
 Using stacks to make sure the parentheses are balanced in mathematical expressions such as:  ((32+8)∗(5/2))/(2+6)
 
+**2.5. Reverse-Polish-notation.ipynb**<br>
+Given a postfix expression as input, evaluate in Reverse Polish notation and return the output.  I didn't get this one 100% of the way.
+
 .  
