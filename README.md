@@ -101,4 +101,10 @@ This is more efficient than using an array to implement a queue.
 **2.10. Build-a-queue-using-a-stack.ipynb**<br>
 Basically you need two stacks, to keep track of items from the perspective of the front of the queue (to be dequeued or popped off the stack) and the back of the queue (enqueued, or pushed onto the tail of the queue)
 
+**2.11. Build-a-queue-using-high-level-python.ipynb**<br>
+Queues are super easy using high level Python (list).
+
+**2.12. Reverse-a-queue.ipynb
+Reverse a queue in place.
+
 .  
