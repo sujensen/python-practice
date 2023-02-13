@@ -98,4 +98,7 @@ Practice implementing a queue, using arrays.
 **2.9. Build-a-queue-using-a-linked-list.ipynb**<br>
 This is more efficient than using an array to implement a queue.
 
+**2.10. Build-a-queue-using-a-stack.ipynb**<br>
+Basically you need two stacks, to keep track of items from the perspective of the front of the queue (to be dequeued or popped off the stack) and the back of the queue (enqueued, or pushed onto the tail of the queue)
+
 .  
