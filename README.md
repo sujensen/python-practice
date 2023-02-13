@@ -95,4 +95,7 @@ Given an input string consisting of only { and }, figure out the minimum number 
 **2.8. Build-a-queue-using-an-array.ipynb**<br>
 Practice implementing a queue, using arrays.
 
+**2.9. Build-a-queue-using-a-linked-list.ipynb**<br>
+This is more efficient than using an array to implement a queue.
+
 .  
