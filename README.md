@@ -92,4 +92,7 @@ If your stack initially has 1, 2, 3, 4 (4 at the top and 1 at the bottom), after
 **2.7. Minimum-bracket-reversals.ipynb**<br>
 Given an input string consisting of only { and }, figure out the minimum number of reversals required to make the brackets balanced.
 
+**2.8. Build-a-queue-using-an-array.ipynb**<br>
+Practice implementing a queue, using arrays.
+
 .  
