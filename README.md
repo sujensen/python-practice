@@ -104,7 +104,7 @@ Basically you need two stacks, to keep track of items from the perspective of th
 **2.11. Build-a-queue-using-high-level-python.ipynb**<br>
 Queues are super easy using high level Python (list).
 
-**2.12. Reverse-a-queue.ipynb
+**2.12. Reverse-a-queue.ipynb**<br>
 Reverse a queue in place.
 
 .  
