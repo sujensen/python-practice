@@ -107,4 +107,8 @@ Queues are super easy using high level Python (list).
 **2.12. Reverse-a-queue.ipynb**<br>
 Reverse a queue in place.
 
-.  
+### 3.  `udacity/dataStructuresAndAlgorithms/dataStructures/recursion`
+
+**3.1. Recursion-introduction.ipynb**<br>  
+Calculate the sum of all integers from 1 to 𝑛 using recursion. 
+
