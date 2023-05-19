@@ -115,3 +115,6 @@ Calculate the sum of all integers from 1 to 𝑛 using recursion.
 **3.2. Factorial-using-recursion.ipynb**<br>
 Use recursion to write a function that will take a number and return the factorial of that number.
 
+**3.3 Reversing-a-string.ipynb**<br>
+Use recursion to reverse a string.
+
