@@ -121,3 +121,5 @@ Use recursion to reverse a string.
 **3.4 Checking-Palindrome.ipynb**<br>
 Use recursion to check if a string is a palindrome.
 
+**3.5 Add-One-Again.ipynb**<br>
+Use recursion to add one to a digit that is represented by an array.
