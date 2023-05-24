@@ -118,3 +118,6 @@ Use recursion to write a function that will take a number and return the factori
 **3.3 Reversing-a-string.ipynb**<br>
 Use recursion to reverse a string.
 
+**3.4 Checking-Palindrome.ipynb**<br>
+Use recursion to check if a string is a palindrome.
+
