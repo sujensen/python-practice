@@ -130,3 +130,6 @@ Use recursion to find all permutations of a list.
 **3.7 String-Permutations.ipynb**<br>
 Use recursion to find all permutations of a string (try to not reuse method for lists, from above).
 
+**3.8 Keypad-Combinations.ipynb**<br>
+Find all possible words you can spell with an integer on a touch-tone phone keypad.
+
