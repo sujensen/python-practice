@@ -133,3 +133,6 @@ Use recursion to find all permutations of a string (try to not reuse method for 
 **3.8 Keypad-Combinations.ipynb**<br>
 Find all possible words you can spell with an integer on a touch-tone phone keypad.
 
+**3.9 Deep-Reverse.ipynb**<br>
+Deep reverse a list, meaning also reverse any inner lists.  Pretty easy...
+
