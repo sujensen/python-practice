@@ -123,3 +123,8 @@ Use recursion to check if a string is a palindrome.
 
 **3.5 Add-One-Again.ipynb**<br>
 Use recursion to add one to a digit that is represented by an array.
+
+**3.6 Permutation.ipynb**<br>
+Use recursion to find all permutations of a list.
+
+
