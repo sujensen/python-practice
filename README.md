@@ -127,4 +127,6 @@ Use recursion to add one to a digit that is represented by an array.
 **3.6 Permutation.ipynb**<br>
 Use recursion to find all permutations of a list.
 
+**3.7 String-Permutations.ipynb**<br>
+Use recursion to find all permutations of a string (try to not reuse method for lists, from above).
 
