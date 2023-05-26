@@ -136,3 +136,6 @@ Find all possible words you can spell with an integer on a touch-tone phone keyp
 **3.9 Deep-Reverse.ipynb**<br>
 Deep reverse a list, meaning also reverse any inner lists.  Pretty easy...
 
+**3.10 Call-stack.ipynb**<br>
+Example of watching a recursive function using http://pythontutor.com/
+
