@@ -139,3 +139,9 @@ Deep reverse a list, meaning also reverse any inner lists.  Pretty easy...
 **3.10 Call-stack.ipynb**<br>
 Example of watching a recursive function using http://pythontutor.com/
 
+**3.11 Tower-of-Hanoi.ipynb**<br>
+TODO:  solve the puzzle with recursion.
+
+**3.12 Return-Codes.ipynb**<br>
+TODO:  solve the puzzle with recursion (inspecting an integer one element at a time)
+
