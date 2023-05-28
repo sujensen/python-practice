@@ -140,8 +140,11 @@ Deep reverse a list, meaning also reverse any inner lists.  Pretty easy...
 Example of watching a recursive function using http://pythontutor.com/
 
 **3.11 Tower-of-Hanoi.ipynb**<br>
-TODO:  solve the puzzle with recursion.
+TODO:  solve the puzzle with recursion. (I started this, but didn't get it.)
 
 **3.12 Return-Codes.ipynb**<br>
-TODO:  solve the puzzle with recursion (inspecting an integer one element at a time)
+TODO:  solve the puzzle with recursion (inspecting an integer one element at a time). (I started this, but didn't get it.)
+
+**3.13 Return-Subsets.ipynb**<br>
+Use recursion to find the power set of a list.
 
