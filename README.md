@@ -148,3 +148,6 @@ TODO:  solve the puzzle with recursion (inspecting an integer one element at a t
 **3.13 Return-Subsets.ipynb**<br>
 Use recursion to find the power set of a list.
 
+**3.14 Staircase.ipynb**<br>
+TODO:  solve the puzzle with recursion, how many ways to go up a staircase, up to 3 steps at a time. (I started this, but didn't get it.)
+
