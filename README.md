@@ -154,3 +154,7 @@ TODO:  solve the puzzle with recursion, how many ways to go up a staircase, up t
 **3.15 Last-index-recursion.ipynb**<br>
 Use recursion to find the last index in a list of a given element.
 
+### 4.  `udacity/dataStructuresAndAlgorithms/dataStructures/trees`
+
+**4.1. 01_create_a_binary_tree.ipynb**<br>  
+
