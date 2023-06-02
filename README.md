@@ -161,4 +161,6 @@ Use recursion to find the last index in a list of a given element.
 **4.2 02_traverse_a_tree_dfs.ipynb**<br>
 Use recursion to traverse a tree depth first, using pre-order, in-order, and post-order.
 
+**4.3 03_traverse_a_tree_bfs.ipynb**<br>
+Write a function to traverse a tree breadth first.
 
