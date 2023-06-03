@@ -164,3 +164,6 @@ Use recursion to traverse a tree depth first, using pre-order, in-order, and pos
 **4.3 03_traverse_a_tree_bfs.ipynb**<br>
 Write a function to traverse a tree breadth first.
 
+**4.4 04_binary_search_tree.ipynb**<br>
+Write functions to insert and search a binary search tree.
+
