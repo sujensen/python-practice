@@ -167,3 +167,7 @@ Write a function to traverse a tree breadth first.
 **4.4 04_binary_search_tree.ipynb**<br>
 Write functions to insert and search a binary search tree.
 
+**4.5 Diameter_of_a_Binary_Tree.ipynb**<br>
+Write a function to compute the diameter of a binary tree (max number of edges between two nodes, going up and down the tree)
+
+
