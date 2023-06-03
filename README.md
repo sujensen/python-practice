@@ -170,4 +170,7 @@ Write functions to insert and search a binary search tree.
 **4.5 Diameter_of_a_Binary_Tree.ipynb**<br>
 Write a function to compute the diameter of a binary tree (max number of edges between two nodes, going up and down the tree)
 
+**4.6 Path-from-root-to-node.ipynb**<br>
+Write a function to find the path from the root node of a binary tree (not a BST) to a given value of another node.
+TODO:  I solved it with a slightly hacky answer, and didn't understand the instructor's solution.
 
