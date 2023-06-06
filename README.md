@@ -174,3 +174,11 @@ Write a function to compute the diameter of a binary tree (max number of edges b
 Write a function to find the path from the root node of a binary tree (not a BST) to a given value of another node.
 TODO:  I solved it with a slightly hacky answer, and didn't understand the instructor's solution.
 UPDATE: I solved it a different way with a "stack", and also Steve explained the instructor's solution to me.
+
+### 5.  `udacity/dataStructuresAndAlgorithms/dataStructures/mapsAndHashing`
+
+**5.1 Introduction-to-Maps.ipynb**<br>
+
+
+
+
