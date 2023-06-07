@@ -179,6 +179,7 @@ UPDATE: I solved it a different way with a "stack", and also Steve explained the
 
 **5.1 Introduction-to-Maps.ipynb**<br>
 
-
+**5.2 HashMap.ipynb**<br>
+Lots of practice in creating a hash table class.  Create a hash function for strings, and add compression.  Add a rehash function.  Build the hash table as an array of LinkedLists.  (Each LinkedList, one at each index in the hash table, represents the "bucket" of nodes whose key hash to that value).
 
 
