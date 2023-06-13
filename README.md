@@ -185,4 +185,7 @@ Lots of practice in creating a hash table class.  Create a hash function for str
 **5.3 Caching.ipynb**<br>
 An example of writing a recursive function while also making use of caching common (repeated) computation results.
 
+**5.4 String-Key-Hash-Table.ipynb**<br>
+More practice with writing hash functions and using a hash table.
+
 
