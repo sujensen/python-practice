@@ -188,4 +188,8 @@ An example of writing a recursive function while also making use of caching comm
 **5.4 String-Key-Hash-Table.ipynb**<br>
 More practice with writing hash functions and using a hash table.
 
+**5.5 Pair-Sum-to-target.ipynb**<br>
+More practice.  Instructor uses a dict while my solution just used a python list.
+
+
 
