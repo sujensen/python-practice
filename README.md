@@ -191,5 +191,8 @@ More practice with writing hash functions and using a hash table.
 **5.5 Pair-Sum-to-target.ipynb**<br>
 More practice.  Instructor uses a dict while my solution just used a python list.
 
+**5.6 Longest-Consecutive-Subsequence.ipynb**<br>
+Find the longest consecutive subsequence of numbers in a given input list, and keep your solution O(n) by using a dict.
+
 
 
